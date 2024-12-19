@@ -1,3 +1,3 @@
 # altynai_project
 
-**hello worldblabla**
+**hello world!**
