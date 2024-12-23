@@ -1,4 +1,3 @@
 # altynai_project
 
-_hello world!_
-**new hello world!**
+**Dorisha, te iubesc**
