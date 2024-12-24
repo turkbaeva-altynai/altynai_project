@@ -16,6 +16,12 @@ Markdown это простой и легкий в освоении языка ф
 
 ## Полезные ссылки
 
-Чтобы узнать больше о синтаксисе Markdown, вы можете обратиться к следующим ссылками: -[Официальная страница Markdown](https://www.markdownguide.org/) -[Основной синтаксис Markdown](https://www.markdownguide.org/basic-syntax/)
-Чтобы узнать больше о синтаксисе Markdown, вы можете обратиться к следующим ссылками: -[Официальная страница Markdown](https://www.markdownguide.org/) -[Основной синтаксис Markdown](https://www.markdownguide.org/basic-syntax/)
-Кроме того, вы можете найти более подробным список функций синтаксиса Markdown по адресу: -[Полное руководство по синтаксису Markdown](https://www.markdownguide.org/)
+Чтобы узнать больше о синтаксисе Markdown, вы можете обратиться к следующим ссылками:
+
+- [Официальная страница Markdown](https://www.markdownguide.org/)
+- [Основной синтаксис Markdown](https://www.markdownguide.org/basic-syntax/)
+  Чтобы узнать больше о синтаксисе Markdown, вы можете обратиться к следующим ссылками:
+- [Официальная страница Markdown](https://www.markdownguide.org/)
+- [Основной синтаксис Markdown](https://www.markdownguide.org/basic-syntax/)
+  Кроме того, вы можете найти более подробным список функций синтаксиса Markdown по адресу:
+- [Полное руководство по синтаксису Markdown](https://www.markdownguide.org/)
