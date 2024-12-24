@@ -1,5 +1,3 @@
-# altynai_project
-
 # Tekwill-academy
 
 Этот проект является примером использования синтаксиса Markdown.
