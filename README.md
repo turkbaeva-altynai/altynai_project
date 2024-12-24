@@ -1,3 +1,5 @@
 # altynai_project
 
-**Dorisha, te iubesc foarte mult**
+#Tekwill-academy
+
+Этот проект является примером использования синтаксиса Markdown.
