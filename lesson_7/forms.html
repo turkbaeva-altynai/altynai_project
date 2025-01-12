@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign up</title>
+  </head>
+  <body>
+    <form action="demo.html" method="post">
+      <fieldset>
+        <legend>Basic User Information</legend>
+        <br />
+
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="confirmation">Confirm Password:</label>
+        <input type="password" id="confirmation" name="confirmation" /><br />
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" />Male<br />
+        <input
+          type="radio"
+          id="female"
+          name="gender"
+          value="female"
+        />Female<br />
+        <input type="radio" id="other" name="gender" value="other" />Other<br />
+
+        <label for="date-of-birth">Date of Birth:</label>
+        <input type="date" id="date-of-birth" name="date-of-birth" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Address Information</legend>
+        <br />
+
+        <label for="street">Street Address:</label>
+        <textarea id="street" name="street" rows="2" cols="22"></textarea><br />
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="USA">USA</option>
+          <option value="Germany">Germany</option>
+          <option value="France">France</option>
+          <option value="Spain">Spain</option>
+          <option value="Italy">Italy</option></select
+        ><br />
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" /><br />
+
+        <label for="postal-code">Postal code:</label>
+        <input type="text" id="postal-code" name="postal-code" /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+        <br />
+
+        <label>Preferred Contact Method:</label><br />
+        <input
+          type="checkbox"
+          id="preferred-contact-email"
+          name="email"
+        />Email<br />
+        <input
+          type="checkbox"
+          id="preferred-contact-phone"
+          name="phone"
+        />Phone<br />
+        <input
+          type="checkbox"
+          id="preferred-contact-postal-mail"
+          name="postal-mail"
+        />Postal Mail<br />
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color" />Color<br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Details:</legend>
+        <br />
+
+        <label for="source">How did you hear about us?</label>
+        <select id="source" name="source">
+          <option value="internet">Internet</option>
+          <option value="friend-or-family">Friend or Family</option>
+          <option value="advertisement">Advertisement</option>
+          <option value="tv-or-radio">TV or Radio</option></select
+        ><br />
+
+        <label for="feedback">Feedback/Comments:</label>
+        <textarea id="feedback" name="feedback" rows="2" cols="22"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Profile</legend>
+
+        <label for="image">Upload a Profile Picture:</label>
+        <input type="file" id="image" name="image" accept=".jpg, .png" /><br />
+
+        <label for="link">Website URL:</label>
+        <input type="url" id="link" name="url" /><br />
+
+        <label for="html-level">Experience Level with HTML:</label>
+        <input
+          type="range"
+          id="html-level"
+          name="html-level"
+          min="0"
+          max="10"
+          oninput="displayValue.value=this.value"
+        />
+        <output id="displayValue">5</output>
+      </fieldset>
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
