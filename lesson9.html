@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="#">Element</a>
+
+    <div class="par">
+      <p>Hello world</p>
+      <p id="par2">Hello world</p>
+      <!-- this paragraph will get his own style, not inherited style from his
+      parent -->
+      <p>Hello world</p>
+      <p>Hello world</p>
+      <p>Hello world</p>
+      <p>Hello world</p>
+    </div>
+
+    <div class="par-sec">
+      <p>Hello world</p>
+      <p>Hello world</p>
+      <p>Hello world</p>
+    </div>
+
+    <h4>Chapter</h4>
+
+    <nav class="menu">
+      <ul>
+        <li><a class="home" href="#">Home</a></li>
+        <li><a class="about" href="#">About</a></li>
+        <li><a class="catalog" href="#">Catalog</a></li>
+        <li><a class="contacts" href="#">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <img id="white-kitten" src="assets/images/kitten.png" alt="kitten" />
+
+    <style>
+      a:hover {
+        color: red;
+      }
+
+      .par {
+        font-size: 7px;
+      }
+
+      #par2 {
+        font-size: 15px;
+      }
+
+      p:first-of-type {
+        /*only first p element will be deeppink in whole page*/
+        color: deeppink;
+      }
+
+      p:nth-child(even) {
+        color: gold;
+      }
+
+      p:nth-last-child(2) {
+        color: aquamarine;
+      }
+
+      html {
+        font-size: 15px;
+      }
+
+      h4 {
+        font-size: 2rem; /* 15*2=20 */
+      }
+
+      /*this two selectors for using em*/
+      .par p {
+        font-size: 3em;
+      }
+      .par #par2 {
+        font-size: 3em;
+      }
+
+      .menu .home::before {
+        content: "!";
+      }
+      .menu .about::before {
+        content: "*";
+      }
+      .menu .catalog::before {
+        content: "%";
+      }
+      .menu .contacts::before {
+        content: "@";
+      }
+
+      .menu .home::after {
+        content: "!!";
+      }
+      .menu .about::after {
+        content: "**";
+      }
+      .menu .catalog::after {
+        content: "%%";
+      }
+      .menu .contacts::after {
+        content: "@@";
+      }
+
+      * {
+        color: rgba(0, 95, 0, 0.5) !important;
+      }
+
+      #white-kitten {
+        width: calc(50% + 150px);
+      }
+    </style>
+  </body>
+</html>
