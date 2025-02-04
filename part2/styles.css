@@ -1,0 +1,68 @@
+#link-hover:hover {
+  color: red;
+}
+
+.par1 {
+  font-size: 17px;
+}
+
+.subtitle h5:first-of-type {
+  color: deeppink;
+}
+
+.par1 p:nth-child(even) {
+  color: gold;
+}
+
+.par2 p:nth-last-child(2) {
+  color: aquamarine;
+}
+
+html {
+  font-size: 15px;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.par1 {
+  font-size: 3em;
+}
+.par2 {
+  font-size: 3em;
+}
+
+.menu #home::before {
+  content: "!";
+}
+.menu #about::before {
+  content: "*";
+}
+.menu #catalog::before {
+  content: "%";
+}
+.menu #contacts::before {
+  content: "@";
+}
+
+.menu #home::after {
+  content: "!!";
+}
+.menu #about::after {
+  content: "**";
+}
+.menu #catalog::after {
+  content: "%%";
+}
+.menu #contacts::after {
+  content: "@@";
+}
+
+#subtitle-h1 {
+  color: rgba(0, 95, 0, 0.5);
+}
+
+#white-kitten {
+  width: calc(50% + 150px);
+}
