@@ -1,0 +1,26 @@
+body {
+  padding-left: 50px;
+}
+
+#main-title {
+  font-size: 50px;
+  text-shadow: 3px 3px 5px orange, -3px -3px 5px purple;
+}
+
+.container {
+  border: 50px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  outline: 30px solid orangered;
+  box-shadow: 10px 10px 50px 50px rgb(127, 131, 127);
+}
+
+.content {
+  margin: 35px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(80, 182, 80);
+  box-shadow: 0 0 20px 20px rgb(80, 182, 80);
+}
