@@ -1,3 +1,3 @@
 # altynai_project
 
-**Dorisha, te iubesc foarte mult**
+**Front end te iubesc foarte mult**
