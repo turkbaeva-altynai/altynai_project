@@ -1,0 +1,19 @@
+#code-magazine {
+  color: blue;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+p {
+  color: indigo;
+}
+
+.par3 {
+  color: aquamarine;
+}
+
+.button {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
